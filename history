@@ -1,0 +1,14 @@
+ git stash
+ 
+  433  git branch
+  434  git stash
+  435  git stash list
+  436  git checkout master
+  437  cat Hello.java
+  438  git stash apply stash@{0}
+  439  cat Hello.java
+  440  vi Hello.java
+  441  git status
+  442  git add Hello.java
+  443  git commit -m "commiting stashed changes"
+  444  history
