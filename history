@@ -12,3 +12,36 @@
   442  git add Hello.java
   443  git commit -m "commiting stashed changes"
   444  history
+
+
+git cherry-pick
+
+ 464  git checkout feature-201
+  465  cat Hello.java
+  466  git status
+  467  vi Hello.java
+  468  git add Hello.java
+  469  git commit -m "master branch players walkout"
+  470  git log
+  471  clear
+  472  ls
+  473  git branch
+  474  git stash
+  475  git stash
+  476  git log
+  477  clear
+  478  git checkout master
+  479  cat Hello.java
+  480  git cherry-pick 8309
+  481  vi Hello.java
+  482  git add Hello.java
+  483  git commit -m "resolved after cherry-pick changes"
+  484  clear
+  485  cat Hello.java
+  486  git checkout feature-201
+  487  cat Hello.java
+  488  git log
+  489  clear
+  490  git reset --hard 4909
+  491  cat Hello.java
+  492  history
