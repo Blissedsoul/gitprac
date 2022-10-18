@@ -45,3 +45,97 @@ git cherry-pick
   490  git reset --hard 4909
   491  cat Hello.java
   492  history
+
+maven 
+
+  628   541  yum install maven -y
+  629    542  clear
+  630    543  mkdir maven
+  631    544  cd maven
+  632    545  pwd
+  633    546  ls
+  634    547  git clone https://github.com/SrikanthPB/mavenwebhook
+  635    548  ls
+  636    549  cd mavenwebhook/
+  637    550  clear
+  638    551  pwd
+  639    552  ls
+  640    553  cat pom.xml
+  641    554  clear
+  642    555  ls
+  643    556  mvn install
+  644    557  clear
+  645    558  ls
+  646    559  cd target
+  647    560  ls
+  648    561  cd /root/.m2
+  649    562  ls
+  650    563  cd repository/
+  651    564  ls
+  652    565  cd /home/ec2-user/maven
+  653    566  ls
+  654    567  cd mavenwebhook/
+  655    568  clear
+  656    569  ls
+  657    570  cat pom.xml
+  658    571  clear
+  659    572  vi pom.xml
+  660    573  ls
+  661    574  mvn clean
+  662    575  clear
+  663    576  ls
+  664    577  mvn package
+  665    578  clear
+  666    579  ls
+  667    580  cd target
+  668    581  ls
+  669    582  vi pom.xml
+  670    583  cd ..
+  671    584  ls
+  672    585  vi pom.xml
+  673    586  clear
+  674    587  ls
+  675    588  mvn clean
+  676    589  clear
+  677    590  ls
+  678    591  mvn compile
+  679    592  clear
+  680    593  ls
+  681    594  cd target
+  682    595  ls
+  683    596  cd ..
+  684    597  mvn clean
+  685    598  clear
+  686    599  mvn install
+  687    600  clear
+  688    601  ls
+  689    602  cd target
+  690    603  ls
+  691    604  cd /root/.m2
+  692    605  ls
+  693    606  ls
+  694    607  rm -rf repository/
+  695    608  cd /home/ec2-user/maven/mavenwebhook/
+  696    609  mvn install
+  697    610  clea
+  698    611  clear
+  699    612  ls
+  700    613  mvn clean
+  701    614  clear
+  702    615  mvn install
+  703    616  clar
+  704    617  mvn install
+  705    618  clear
+  706    619  ls
+  707    620  cd /root/.m2
+  708    621  rm -rf repository/
+  709    622  cd /home/ec2-user/maven/mavenwebhook/
+  710    623  mvn package
+  711    624  clear
+  712    625  mvn package
+  713    626  clear
+  714    627  history
+  715  clear
+  716  ls
+  717  ls
+  718  history
